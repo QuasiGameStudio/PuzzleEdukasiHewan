@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1048330060916770}
+  m_IsPrefabParent: 1
+--- !u!1 &1048330060916770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4538452505824750}
+  - component: {fileID: 114531432085430252}
+  m_Layer: 0
+  m_Name: Speller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4538452505824750
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1048330060916770}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114531432085430252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1048330060916770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 047c69a862027ad4f9bbe7db7e8418e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruitParent: {fileID: 0}
+  charClips:
+  - {fileID: 8300000, guid: 45b9ff2498c4b5b48a67a44f45f27694, type: 3}
+  - {fileID: 8300000, guid: 721326c848d391b4da1eceb88f09a067, type: 3}
+  - {fileID: 8300000, guid: 49205b2b2913d8045b68f65feb904eb4, type: 3}
+  - {fileID: 8300000, guid: f0c384e5e9c65e34dbff525c6de5b072, type: 3}
+  - {fileID: 8300000, guid: 6f5ea8984e8d73d47819797872226285, type: 3}
+  - {fileID: 8300000, guid: 39829a0130d16434d9ac11ac6c783437, type: 3}
+  - {fileID: 8300000, guid: e91f133e0c669154192e62ad18dc424b, type: 3}
+  - {fileID: 8300000, guid: 60288b9d278d4c74182678636b20638b, type: 3}
+  - {fileID: 8300000, guid: a41432a700251624c9f54a0d51ccd620, type: 3}
+  - {fileID: 8300000, guid: ca7062f1c1563b5429d02590ea493aae, type: 3}
+  - {fileID: 8300000, guid: 006d737a4a238c84aab856e3c3004d83, type: 3}
+  - {fileID: 8300000, guid: 0edba59b25ee8754f8bc5f54d7985765, type: 3}
+  - {fileID: 8300000, guid: d09158bd46a93364fba72b8132774ef1, type: 3}
+  - {fileID: 8300000, guid: e0bd43c7d5283b34ebf2ea72ca559c78, type: 3}
+  - {fileID: 8300000, guid: d3c9669bce3d2b24db4e18790f310313, type: 3}
+  - {fileID: 8300000, guid: 6ff03583fad8915409d53c1dfc000451, type: 3}
+  - {fileID: 8300000, guid: f3bede69f4e184346b6dc931305dd895, type: 3}
+  - {fileID: 8300000, guid: 0014592d4d2c6b042afd36eedac3c46a, type: 3}
+  - {fileID: 8300000, guid: 267b8b583820ddd4585e37098c70fc38, type: 3}
+  - {fileID: 8300000, guid: f8b98438ba83a8e4c8e4d34af13975b3, type: 3}
+  - {fileID: 8300000, guid: f564e5f04edcb1947b169be76cb3ced2, type: 3}
+  - {fileID: 8300000, guid: ec7d7b39348c02e41ab67c6c60c14368, type: 3}
+  - {fileID: 8300000, guid: 5359f1dbff30bb84f9220e594867fc34, type: 3}
+  - {fileID: 8300000, guid: 943f15c0ac796044cb244cb174711838, type: 3}
+  - {fileID: 8300000, guid: 5971a271d8e5ff04c8828d591b5fae03, type: 3}
+  - {fileID: 8300000, guid: 0b75ccd733a54e14eb26aba55cc14639, type: 3}
+  nameClips: []
